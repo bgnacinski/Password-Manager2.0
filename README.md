@@ -11,11 +11,11 @@ Key is needed to encrypt your password using cesar algorithm. Type a number like
 ### How to make SHA512 hash?
 Open your python console and type:
 
->>> import hashlib
->>> hash = hashlib.sha512()
->>> hash.update("--your password--".encode())
->>> hash = hash.hexdigest()
->>> hash
+##### import hashlib
+##### hash = hashlib.sha512()
+##### hash.update("--your password--".encode())
+##### hash = hash.hexdigest()
+##### hash
 
 And copy output of 'hash' and paste it into 'master-password.txt' file. Save this file and that's it.
 
